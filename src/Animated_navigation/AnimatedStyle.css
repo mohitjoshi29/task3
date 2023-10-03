@@ -1,0 +1,49 @@
+#upper{
+    background-color: darkturquoise;
+    width:100%;
+    height:400px;
+    margin-top: 0px;
+}
+#lower{
+    background-color: blue;
+    width:100%;
+    height:400px;
+    margin-top: 20px;
+    z-index: -1;
+    position: fixed;
+    top:370px;
+}
+#navigation{
+    height:40px;
+    width:350px;
+    background-color: white;
+    margin:-30px 0px 0px 480px;
+}
+#navigation ul{
+display: flex;
+margin-top: 15px;
+}
+#navigation ul li{
+    padding:7px 15px 0px 5px;
+    list-style-type: none;
+}
+#close{
+    margin-top: 0px;
+    width:40px;
+    height: 40px;
+    border: none;
+}
+
+#navigate{
+    height:40px;
+    width:0px;
+    background-color: white;
+    margin:-30px 0px 0px 480px;
+}
+#open{
+    margin-top: 15px;
+    margin-left: 300px;
+    width:50px;
+    height: 40px;
+    border: none;
+}
