@@ -61,6 +61,12 @@ import Chess1 from './Chess1/Chess1';
 import Chess2 from './Chess2/Chess2';
 import Task from './Task'
 import ClassCmp from './Class_Cmp/ClassCmp';
+import FuncComp from './Class_Cmp/FuncComp';
+import Task_ArrObj from './Task_ArrObj/Task_ArrObj';
+import Arr_Of_Obj from './Task_ArrObj/Arr_Of_Obj';
+import GetData_Api from './Task_ArrObj/GetData_Api';
+import TwoArr from './Task_ArrObj/TwoArr';
+import NewDate from './NewDateMethod/NewDate';
 
 export default function App() {
   const [form, setForm] = useState({});
@@ -134,8 +140,14 @@ export default function App() {
       {/* <Chess/> */}
       {/* <Chess1/> */}
       {/* <Chess2/> */}
-      <Task/>
-      <ClassCmp/>
+      {/* <Task/> */}
+      {/* <ClassCmp/> */}
+      {/* <FuncComp/> */}
+      {/* <Task_ArrObj/> */}
+      {/* <Arr_Of_Obj/> */}
+      {/* <GetData_Api/> */}
+      {/* <TwoArr/> */}
+      <NewDate/>
       </div>
   )
 }

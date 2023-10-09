@@ -35,7 +35,7 @@ export default function Task() {
         // let arr=[3,2,-1,5,6,8,1,10,-10];
         var arr1 = [];
         let finalarr = []
-        let findnum = 4;
+        let findnum = 12;
         for (var i = 0; i < arr.length; i++) {
             var diff = Math.abs(findnum - arr[i]);
             // console.log(` < li key=${arr[i]}> ${diff} = ${arr[i]} < /li>`);
