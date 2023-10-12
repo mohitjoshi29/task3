@@ -70,6 +70,7 @@ import NewDate from './NewDateMethod/NewDate';
 import Stop_watch from './StopWatch/Stop_watch';
 import Lifting from './Lifting/Lifting';
 import Lifting_Parent from './Lifting/Lifting_Parent';
+import Class_formsLocal from './Class_formsLocalSto/Class_formsLocal';
 
 export default function App() {
   const [form, setForm] = useState({});
@@ -152,7 +153,8 @@ export default function App() {
       {/* <TwoArr/> */}
       {/* <NewDate/> */}
       {/* <Stop_watch/> */}
-      <Lifting_Parent/>
+      {/* <Lifting_Parent/> */}
+      <Class_formsLocal/>
       </div>
   )
 }
