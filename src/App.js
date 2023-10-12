@@ -67,6 +67,9 @@ import Arr_Of_Obj from './Task_ArrObj/Arr_Of_Obj';
 import GetData_Api from './Task_ArrObj/GetData_Api';
 import TwoArr from './Task_ArrObj/TwoArr';
 import NewDate from './NewDateMethod/NewDate';
+import Stop_watch from './StopWatch/Stop_watch';
+import Lifting from './Lifting/Lifting';
+import Lifting_Parent from './Lifting/Lifting_Parent';
 
 export default function App() {
   const [form, setForm] = useState({});
@@ -147,7 +150,9 @@ export default function App() {
       {/* <Arr_Of_Obj/> */}
       {/* <GetData_Api/> */}
       {/* <TwoArr/> */}
-      <NewDate/>
+      {/* <NewDate/> */}
+      {/* <Stop_watch/> */}
+      <Lifting_Parent/>
       </div>
   )
 }
