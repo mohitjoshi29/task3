@@ -73,6 +73,8 @@ import Lifting_Parent from './Lifting/Lifting_Parent';
 import Class_formsLocal from './Class_formsLocalSto/Class_formsLocal';
 import Reference from './Reference/Reference';
 import PracticeQue from './PracticeQue/PracticeQue';
+import Lifecycle from './Lifecycle/Lifecycle';
+import React_Memo from './React_Memo/React_Memo';
 
 export default function App() {
   const [form, setForm] = useState({});
@@ -158,7 +160,11 @@ export default function App() {
       {/* <Lifting_Parent/> */}
       {/* <Class_formsLocal/> */}
       {/* <Reference/> */}
-      <PracticeQue/>
+      {/* <PracticeQue/> */}
+      {/* *********************** */}
+      {/* <Lifecycle favorCol='yellow'/> */}
+      {/* <Lifecycle/> */}
+      <React_Memo/>
       </div>
   )
 }
