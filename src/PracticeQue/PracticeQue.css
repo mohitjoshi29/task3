@@ -1,0 +1,25 @@
+#webpage{
+    width: 100%;
+    height:auto;
+    border: 1px solid black;
+}
+.header{
+    width: 100%;
+    height:70px;
+    background-color: #58EEEB;
+}
+.section{
+    width: 100%;
+    height: 600px;
+}
+.section #aside{
+    width: 18%;
+    height: 600px;
+    background-color: #263636;
+    margin-left: 0px;
+}
+.section #main{
+    width: 82%;
+    height: 600px;
+    background-color: #CBF1F0;
+}
