@@ -20,6 +20,9 @@ export default function React_Memo() {
   return (
     <div>
       <ReactMemo_Child todo={todos}/>
+      <ReactMemo_Child name='batman'/>
+      <ReactMemo_Child name='superman'/>
+      <ReactMemo_Child name='jocker'/>
       <hr/>
       count:{count}
       <button type='button' onClick={increment}>increment</button>

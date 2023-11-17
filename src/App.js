@@ -46,35 +46,41 @@ import './App.css';
 // import Rotate_nav from './Rotate_nav';
 // import rotate1 from './rotate1';
 import Rotate from './Rotate';
-import Scrolling from './Scrolling';
-import SearchKey from './SearchKey';
-import Pass_Length from './Password_Length/Pass_Length';
-import Animated from './Animated_navigation/Animated';
-import MouseEnter from './on_MouseEnter/MouseEnter';
-import Responsive from './ResponsiveDesign/Responsive';
-import Grd from './Grd/Grd'
-import Flexprop from './Flexproperty/Flexprop';
-import ZigZagSeries2 from './ZigZagSeries2';
-import Sticky_Nav from './Sticky_Nav/Sticky_Nav';
-import Chess from './Chess/Chess'
-import Chess1 from './Chess1/Chess1';
-import Chess2 from './Chess2/Chess2';
-import Task from './Task'
-import ClassCmp from './Class_Cmp/ClassCmp';
-import FuncComp from './Class_Cmp/FuncComp';
-import Task_ArrObj from './Task_ArrObj/Task_ArrObj';
-import Arr_Of_Obj from './Task_ArrObj/Arr_Of_Obj';
-import GetData_Api from './Task_ArrObj/GetData_Api';
-import TwoArr from './Task_ArrObj/TwoArr';
-import NewDate from './NewDateMethod/NewDate';
-import Stop_watch from './StopWatch/Stop_watch';
-import Lifting from './Lifting/Lifting';
-import Lifting_Parent from './Lifting/Lifting_Parent';
-import Class_formsLocal from './Class_formsLocalSto/Class_formsLocal';
-import Reference from './Reference/Reference';
-import PracticeQue from './PracticeQue/PracticeQue';
-import Lifecycle from './Lifecycle/Lifecycle';
-import React_Memo from './React_Memo/React_Memo';
+// import Scrolling from './Scrolling';
+// import SearchKey from './SearchKey';
+// import Pass_Length from './Password_Length/Pass_Length';
+// import Animated from './Animated_navigation/Animated';
+// import MouseEnter from './on_MouseEnter/MouseEnter';
+// import Responsive from './ResponsiveDesign/Responsive';
+// import Grd from './Grd/Grd'
+// import Flexprop from './Flexproperty/Flexprop';
+// import ZigZagSeries2 from './ZigZagSeries2';
+// import Sticky_Nav from './Sticky_Nav/Sticky_Nav';
+// import Chess from './Chess/Chess'
+// import Chess1 from './Chess1/Chess1';
+// import Chess2 from './Chess2/Chess2';
+// import Task from './Task'
+// import ClassCmp from './Class_Cmp/ClassCmp';
+// import FuncComp from './Class_Cmp/FuncComp';
+// import Task_ArrObj from './Task_ArrObj/Task_ArrObj';
+// import Arr_Of_Obj from './Task_ArrObj/Arr_Of_Obj';
+// import GetData_Api from './Task_ArrObj/GetData_Api';
+// import TwoArr from './Task_ArrObj/TwoArr';
+// import NewDate from './NewDateMethod/NewDate';
+// import Stop_watch from './StopWatch/Stop_watch';
+// import Lifting from './Lifting/Lifting';
+// import Lifting_Parent from './Lifting/Lifting_Parent';
+// import Class_formsLocal from './Class_formsLocalSto/Class_formsLocal';
+// import Reference from './Reference/Reference';
+// import PracticeQue from './PracticeQue/PracticeQue';
+// import Lifecycle from './Lifecycle/Lifecycle';
+// import React_Memo from './React_Memo/React_Memo';
+// import Slider_Dynamic from './Slider_Dynamic/Slider_Dynamic';
+// import RandomColor from './Random_Color/RandomColor';
+// import Theme_CLock from './Theme_Clock/Theme_CLock';
+// import NeedleWatch from './NeedleWatch/NeedleWatch';
+import WebPage from './WebPage/WebPage';
+import TaskJQuery from './TaskJQuery/TaskJQuery';
 
 export default function App() {
   const [form, setForm] = useState({});
@@ -164,8 +170,14 @@ export default function App() {
       {/* *********************** */}
       {/* <Lifecycle favorCol='yellow'/> */}
       {/* <Lifecycle/> */}
-      <React_Memo/>
-      </div>
+      {/* <Slider_Dynamic /> */}
+      {/* <React_Memo/> */}
+      {/* <RandomColor/> */}
+      {/* <Theme_CLock/> */}
+      {/* <NeedleWatch/> */}
+      {/* <WebPage/> */}
+      <TaskJQuery/>
+    </div>
   )
 }
 

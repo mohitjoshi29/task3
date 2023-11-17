@@ -16,7 +16,6 @@ export default function Stop_watch() {
             console.log(Interval);
         }
         return () => clearInterval(Interval)
-
     }, [clear, time])
     var resetFun = () => {
         setTime(0);

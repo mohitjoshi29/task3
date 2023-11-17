@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+.squareDiv{
+    background-color:darkslategray;
+    width:20px;
+    height:20px;
+    margin: 2px 2px 5px 2px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    /* flex-wrap: wrap;
+    max-width: 400px; */
+}
+/* .Chess-board{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+} */
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    /* flex-direction: column; */
+    height:100vh;
+    overflow: hidden;
+    margin: 0;
+}
