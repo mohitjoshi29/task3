@@ -38,7 +38,7 @@
 //   }
 // }
 
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 // import Forms from './Forms';
 // import Forms1 from './Forms1';
 // import Forms2 from './Forms2';
@@ -81,9 +81,18 @@ import Rotate from './Rotate';
 // import NeedleWatch from './NeedleWatch/NeedleWatch';
 import WebPage from './WebPage/WebPage';
 import TaskJQuery from './TaskJQuery/TaskJQuery';
+import { Provider } from 'react';
+import store from './Redux/Store/Store';
+import { Decrement, Increment } from './Redux/Action/IncDecAction';
+import { useDispatch, useSelector } from 'react-redux'
+import { CallApi } from './Redux/Action/CallAPIAction';
 
 export default function App() {
+  const dispatch = useDispatch()
   const [form, setForm] = useState({});
+  const CountNumber = useSelector((state) => state.Reducer.Number)
+  const Get_API_Data = useSelector((state) => state.ApiReducer.list)
+  console.log(Get_API_Data)
 
   const handleData = (e) => {
     // const name = e.target.name
@@ -94,6 +103,10 @@ export default function App() {
     e.preventDefault();
     console.log(form);
   }
+
+  useEffect(() => {
+    dispatch(CallApi())
+  }, [])
   return (
     <div>
       {/* <!-- Button trigger modal -->*/}
@@ -176,7 +189,17 @@ export default function App() {
       {/* <Theme_CLock/> */}
       {/* <NeedleWatch/> */}
       {/* <WebPage/> */}
-      <TaskJQuery/>
+      {/* <TaskJQuery/> */}
+
+      <h1>Counter Inc/Dec</h1>
+      <p>Count : {CountNumber}</p>
+      <button onClick={() => dispatch(Increment(5))}>
+        Increment
+      </button>
+      <button onClick={() => dispatch(Decrement(2))}>
+        Decrement
+      </button>
+
     </div>
   )
 }
